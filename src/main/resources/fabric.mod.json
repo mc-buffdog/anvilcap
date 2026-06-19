@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "anvilcap",
+	"version": "${version}",
+	"name": "Anvil Cap",
+	"description": "Caps the anvil cost to 39, preventing anvils from displaying the 'Too Expensive!' message.",
+	"authors": [
+		"ciaabcdefg"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/anvilcap/icon.png",
+	"environment": "*",
+	"mixins": [
+		"anvilcap.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "ciaabcdefg.anvilcap.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"AnvilCapAccessor",
+		"AnvilCapMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
